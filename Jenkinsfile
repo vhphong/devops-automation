@@ -21,8 +21,9 @@ pipeline {
             steps{
                 script{
                     withCredentials([string(credentialsId: 'dockerhub-pwd', variable: 'dockerhubpwd')]) {
-                        // bat 'docker login -u phongvo0222 -p ${dockerhubpwd}'
-                        bat 'docker login -u phongvo0222 -p Lowell22021982'
+//                         bat 'docker login -u javatechie -p ${dockerhubpwd}'
+                        bat 'docker login -u phongvo0222 -p ${dockerhubpwd}'
+//                         bat 'docker login -u phongvo0222 -p L...22021982'
                     }
                     bat 'docker push phongvo0222/devops-automation-integration'
                 }
