@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DevopsAutomationApplication {
 
-    @GetMapping
-    public static String message() {
-        return "Welcome to Devops Automation Application";
-    }
+//    @GetMapping
+//    public static String message() {
+//        return "Welcome to Devops Automation Application";
+//    }
 
 
     public static void main(String[] args) {
