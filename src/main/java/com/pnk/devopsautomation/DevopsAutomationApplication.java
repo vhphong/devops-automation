@@ -12,6 +12,7 @@ public class DevopsAutomationApplication {
 
     @GetMapping
     public static String message() {
+        System.out.println("Hello from Devops Automation Application");
         return "Welcome to Devops Automation Application";
     }
 
