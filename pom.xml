@@ -14,7 +14,7 @@
 	<name>devops-automation</name>
 	<description>Demo project for Spring Boot with DevOps Automation (Jenkins, Docker)</description>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
