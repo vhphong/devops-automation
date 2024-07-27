@@ -1,5 +1,6 @@
 ### References
-#### Docker - Dockerizing your Spring Boot Application | Java Techie https://www.youtube.com/watch?v=e3YERpG2rMs
+* Docker - Dockerizing your Spring Boot Application | Java Techie https://www.youtube.com/watch?v=e3YERpG2rMs
+* Java spring boot 3: #28 build Docker image https://www.youtube.com/watch?v=EkChqwXzbsU
 
 ### Executions
 ```Docker
